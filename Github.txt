@@ -1,0 +1,23 @@
+
+ssh: git@github.com:dloza08/PorfolioWebFullStack.git
+https://github.com/dloza08/PorfolioWebFullStack.git
+
+
+
+Sentencias para crear un repositorio local
+echo "# PorfolioWebFullStack" >> README.md
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/dloza08/PorfolioWebFullStack.git
+$ git push -u origin main
+
+
+
+Sentencia cuando ya existe el repositorio local y hay que empujar al repositorio en la nube(github)
+$ git remote add origin https://github.com/dloza08/PorfolioWebFullStack.git
+$ git branch -M main
+$ git push -u origin main
+
+
